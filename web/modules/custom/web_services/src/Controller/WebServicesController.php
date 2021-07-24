@@ -8,10 +8,8 @@ use Drupal\user\Entity\Role;
 
 class WebServicesController
 {
-
-  /**
-  * Funcion que consulta información de un rol por el parametro de nombre
-  */
+  /**Funcion que consulta información de un rol por el parametro de nombre */
+  
   public function getRolesByName($nombre = '') {
 
   $rol_names = user_role_names();
@@ -36,7 +34,7 @@ class WebServicesController
       foreach($permissions as $item){
 
       $final_array[] = [
-      'nombrePermiso' => t($item),
+      'nombrePermiso' => $item,
       'idPermiso' => $item,
       ];
       } 
@@ -65,18 +63,17 @@ class WebServicesController
     }
     return '';
   }
-
   function get_matches_array_roles($name, $rol_names) {
 
-    $array_matchs_roles = [];
+  $array_matchs_roles = [];
 
-    foreach($rol_names as $key => $value){
+  foreach($rol_names as $key => $value){
       // array_push($array_matchs_roles,$value);
       if (false !== stripos($value, $name)) {
-        $array_matchs_roles[]=[
-          'key' => $key,
-          'value' => $value
-        ];
+      $array_matchs_roles[]=[
+        'key' => $key,
+        'value' => $value
+      ];
       }
     }
     return $array_matchs_roles;
