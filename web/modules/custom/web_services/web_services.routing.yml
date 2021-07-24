@@ -1,0 +1,8 @@
+web_services.service_get_rol_by_name.form:
+  path: '/api/drupal/roles/{nombre}'
+  defaults:
+    _controller: '\Drupal\web_services\Controller\WebServicesController::getRolesByName'
+    _title: 'Consulta información de un rol por el parametro de nombre'
+    methods: [GET]
+  requirements:
+    _permission: 'access content'

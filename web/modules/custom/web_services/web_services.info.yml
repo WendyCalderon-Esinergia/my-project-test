@@ -1,0 +1,5 @@
+name: "Servicios web"
+type: module
+description: "Módulo para exponer servicios web"
+package: "XM"
+core_version_requirement: ^8.8 || ^9

@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Contains web_services.module.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function web_services_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the web_services module.
+    case 'help.page.web_services':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('xm') . '</p>';
+      return $output;
+
+    default:
+  }
+}
