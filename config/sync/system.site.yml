@@ -1,0 +1,14 @@
+uuid: d79aa58c-8b8e-4dbc-80fb-f8c931707a6f
+name: 'My proyect '
+mail: my-proyect@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

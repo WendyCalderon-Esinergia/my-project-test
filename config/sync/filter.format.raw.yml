@@ -1,0 +1,14 @@
+uuid: c43660fc-9135-49f1-8ecb-6f6ad3c0f479
+langcode: en
+status: true
+dependencies: {  }
+name: Raw
+format: raw
+weight: 0
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

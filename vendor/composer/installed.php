@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'c5cfec6397a3170ed19cfa25bf4c77caea33914a',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -604,6 +604,15 @@
                 0 => '9.2.2',
             ),
         ),
+        'drupal/entity_reference_revisions' => array(
+            'pretty_version' => '1.9.0',
+            'version' => '1.9.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/entity_reference_revisions',
+            'aliases' => array(),
+            'reference' => '8.x-1.9',
+            'dev_requirement' => false,
+        ),
         'drupal/field' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -790,6 +799,15 @@
                 0 => '9.2.2',
             ),
         ),
+        'drupal/paragraphs' => array(
+            'pretty_version' => '1.12.0',
+            'version' => '1.12.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/paragraphs',
+            'aliases' => array(),
+            'reference' => '8.x-1.12',
+            'dev_requirement' => false,
+        ),
         'drupal/path' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -824,12 +842,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'c5cfec6397a3170ed19cfa25bf4c77caea33914a',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
